@@ -18,15 +18,23 @@ public class Ejecutable02 {
         Hospital h3 = new Hospital();
         
         h1.establecerNombre("Vaca Ortíz");
-        h2.establecerNombre("Militar");
-        h3.establecerNombre("Manuel IM");
+        h2.establecerNombre("Isidor Ayora");
+        h3.establecerNombre("SusbCentro Catacocha");
         
-        System.out.printf("%s\n", h1.obtenerNombre());
-        
+        System.out.printf("%s\n", h1.obtenerNombre());        
         h1.establecerNombre("Hospital Vaca Ortíz");
-        
         System.out.printf("%s\n", h1.obtenerNombre());
         
+        System.out.println("");
         
+        System.out.printf("%s\n", h2.obtenerNombre());        
+        h2.establecerNombre("Hospital Isidro Ayora");
+        System.out.printf("%s\n", h2.obtenerNombre());
+        
+        System.out.println("");
+        
+        System.out.printf("%s\n", h3.obtenerNombre());        
+        h3.establecerNombre("Hospital SusCentro Catacocha");
+        System.out.printf("%s\n", h3.obtenerNombre());
     }
 }
